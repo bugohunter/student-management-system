@@ -1,1 +1,0 @@
-<?php include 'config.php'; mysqli_query($conn,"INSERT INTO students(name,email,course) VALUES('{$_POST['name']}','{$_POST['email']}','{$_POST['course']}')"); header('Location: dashboard.php');
